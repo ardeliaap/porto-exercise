@@ -198,8 +198,8 @@ Kesan: Sangat menonjolkan jiwa UI/UX Designer. Sedikit artsy tapi tidak berlebih
 
 Tips UI untuk Tema "Playful Professional":
 
-    - **Gunakan Border Radius (Sudut Membulat):** Karena tema ini bersifat playful, hindari menggunakan sudut kotak yang tajam (0px) pada tombol CTA atau Card Project Anda. Gunakan rounded corners (misal: border-radius: 12px atau 16px) agar senada dengan kelembutan font seperti Poppins/Outfit.
-    - **Gunakan Drop Shadow Halus:** Berikan bayangan (shadow) berwarna ungu atau pink yang sangat tipis pada tombol saat di-hover untuk menambah kesan ceria.
+- **Gunakan Border Radius (Sudut Membulat):** Karena tema ini bersifat playful, hindari menggunakan sudut kotak yang tajam (0px) pada tombol CTA atau Card Project Anda. Gunakan rounded corners (misal: border-radius: 12px atau 16px) agar senada dengan kelembutan font seperti Poppins/Outfit.
+- **Gunakan Drop Shadow Halus:** Berikan bayangan (shadow) berwarna ungu atau pink yang sangat tipis pada tombol saat di-hover untuk menambah kesan ceria.
 
 ## Key Decisions 
 | DECISIONS | VALUE | WHY |
