@@ -207,4 +207,4 @@ Tips UI untuk Tema "Playful Professional":
 | Colour | [Background : #FFFFFF, Primary Text : #0F172A, Primary Accent : #F77EB3, Secondary Accent : #CD7DF5] | Wanted to look approachable and creative. Used colours aren't monotone; which is not tiring to look at.|
 | Typography | [Poppins, DM Sans] | Looks more cheerful & friendly. |
 | Layout | Navigation / Header (Sticky & Minimal), Card-based UI, Vertical Timeline for my journey. | Simple, clean, and saves space. |
-| Style | Playful Professional | Looks more fun and not boring. |
+| Style | Playful Professional | Looks more fun and less boring. |

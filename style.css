@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@theme {
+  --color-brand-bg: #FFFFFF;
+  --color-brand-text: #0F172A;
+  --color-brand-accent: #F77EB3;
+  --color-brand-secondary: #CD7DF5;
+  --font-poppins: "Poppins", sans-serif;
+  --font-dm: "DM Sans", sans-serif;
+
+  /* Custom animation for waving hand emoji */
+  --animate-wave: wave 2.5s infinite;
+  
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
