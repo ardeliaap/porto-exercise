@@ -20,79 +20,78 @@ Output:
 4. 1 unique element
 
 ## Response 1.
-Halo Ardelia! Sebagai konsultan UX/UI, saya sangat senang membantu merancang konsep portfolio yang bisa menarik perhatian baik startup (yang menyukai inovasi dan kreativitas) maupun corporate (yang menyukai profesionalisme dan kerapian).
-
-Berikut adalah rancangan portfolio "Simple tapi Stand Out" dengan pendekatan Mobile-first:
 
 1. 3 Opsi Color Palette
-Opsi A: "Tech Minimalist" (Aman, Bersih, Startup-Friendly) Kesan: Modern, rapi, dan mudah dibaca. Sangat cocok untuk menonjolkan konten project.
+- **Opsi A**: "Tech Minimalist" (Aman, Bersih, Startup-Friendly) Kesan: Modern, rapi, dan mudah dibaca. Sangat cocok untuk menonjolkan konten project.
+    - Background: Off-White (#F8FAFC) - Tidak membuat mata lelah di layar HP.
+    - Primary Text: Deep Navy (#0F172A) - Pengganti hitam pekat agar lebih elegan.
+    - Accent/CTA Button: Electric Blue (#3B82F6) - Warna biru tech standar yang terpercaya.
+    - Secondary Accent: Mint Green (#10B981) - Memberikan kesan "Fresh" (cocok untuk fresh graduate).
 
-Background: Off-White (#F8FAFC) - Tidak membuat mata lelah di layar HP.
-Primary Text: Deep Navy (#0F172A) - Pengganti hitam pekat agar lebih elegan.
-Accent/CTA Button: Electric Blue (#3B82F6) - Warna biru tech standar yang terpercaya.
-Secondary Accent: Mint Green (#10B981) - Memberikan kesan "Fresh" (cocok untuk fresh graduate).
-Opsi B: "Corporate Elegant" (Profesional, Elegan, Mature) Kesan: Serius, terpercaya, dan stabil. Disukai oleh rekruter dari perusahaan besar.
+- **Opsi B**: "Corporate Elegant" (Profesional, Elegan, Mature) Kesan: Serius, terpercaya, dan stabil. Disukai oleh rekruter dari perusahaan besar.
+    - Background: Clean White (#FFFFFF)
+    - Primary Text: Slate Gray (#334155)
+    - Accent/CTA Button: Teal / Hijau Zamrud (#0F766E) - Memberikan kesan tenang dan berwibawa.
+    - Card Background: Sangat sedikit abu-abu (#F1F5F9) untuk pemisah seksi (section) di mobile.
 
-Background: Clean White (#FFFFFF)
-Primary Text: Slate Gray (#334155)
-Accent/CTA Button: Teal / Hijau Zamrud (#0F766E) - Memberikan kesan tenang dan berwibawa.
-Card Background: Sangat sedikit abu-abu (#F1F5F9) untuk pemisah seksi (section) di mobile.
-Opsi C: "Dark Mode Neo" (Stand Out, Berani, IT Banget) Kesan: Sangat mencolok, modern, dan sangat "developer".
+- **Opsi C**: "Dark Mode Neo" (Stand Out, Berani, IT Banget) Kesan: Sangat mencolok, modern, dan sangat "developer".
+    - Background: Charcoal Black (#121212)
+    - Primary Text: Light Gray (#E2E8F0)
+    - Accent/CTA Button: Neon Purple (#A855F7) atau Cyber Pink (#EC4899).
+    - Card Background: Darker Gray (#1E293B) dengan sedikit bayangan glowing (neon shadow).
 
-Background: Charcoal Black (#121212)
-Primary Text: Light Gray (#E2E8F0)
-Accent/CTA Button: Neon Purple (#A855F7) atau Cyber Pink (#EC4899).
-Card Background: Darker Gray (#1E293B) dengan sedikit bayangan glowing (neon shadow).
 2. Rekomendasi Typography (Google Fonts)
 Untuk mobile, keterbacaan (readability) adalah raja. Kita butuh font yang rapi di layar kecil namun punya karakter.
 
-Heading Font (Untuk Nama dan Judul Section):
-Rekomendasi 1: Plus Jakarta Sans (Sangat modern, geometric, memberi kesan startup teknologi tinggi).
-Rekomendasi 2: Clash Display atau Space Grotesk (Jika ingin kesan yang lebih edgy dan unik).
-Body Font (Untuk Paragraf dan Deskripsi):
-Rekomendasi: Inter atau DM Sans. Keduanya sangat legibel di ukuran layar kecil (mobile) dan terlihat sangat profesional.
+- **Heading Font (Untuk Nama dan Judul Section):**  
+    - Rekomendasi 1: **Plus Jakarta Sans** (Sangat modern, geometric, memberi kesan startup teknologi tinggi).
+    - Rekomendasi 2: **Clash Display** atau **Space Grotesk** (Jika ingin kesan yang lebih edgy dan unik).
+
+- **Body Font (Untuk Paragraf dan Deskripsi):**
+    - Rekomendasi: **Inter** atau **DM Sans**. Keduanya sangat legibel di ukuran layar kecil (mobile) dan terlihat sangat profesional.
+
 3. Section Structure (Alur Mobile-First)
 Di mobile, user attention span sangat pendek (mereka hanya scroll / skimming). Struktur harus linier (atas ke bawah) dan to-the-point:
 
-Hero Section (Hook 3 Detik Pertama)
-Sapaan singkat: "Hi, I'm Ardelia"
-One-liner positioning: "Data & QA Enthusiast | Building seamless data pipelines and testing robust applications."
-Tombol CTA (Call to Action) Utama: "Lihat Project" atau "Download CV".
-Tech Stack Marquee (Auto-scroll)
-Daripada melist skill dengan text panjang, gunakan baris logo (Python, MySQL, Airflow, Katalon, Postman, HTML, CSS) yang berjalan otomatis dari kanan ke kiri (marquee). Ini menghemat ruang di layar mobile namun tetap terlihat dinamis.
-Featured Projects (Inti Portfolio)
-Tampilkan 2-3 project terbaik saja (Quality > Quantity).
-Gunakan format Card Layout (mudah di-tap di HP).
-Isi Card: Gambar Thumbnail (opsional), Judul Project, Deskripsi Singkat (1 kalimat), dan Tags (contoh: [Python] [Airflow]), tombol "View Repo".
-My Journey (About / Experience)
-Jangan gunakan paragraf panjang. Gunakan desain Timeline Vertikal.
-Sangat bagus untuk mobile (tinggal scroll ke bawah). Berisi titik-titik (pendidikan IT, bootcamp Kalibrr, dll).
-Footer & Contact
-Singkat dan padat. "Let's Connect!"
-Icon besar yang bisa di-tap untuk LinkedIn, GitHub, dan Email.
+- **Hero Section (Hook 3 Detik Pertama)**  
+    - Sapaan singkat: "Hi, I'm Ardelia"
+    - One-liner positioning: "Data & QA Enthusiast | Building seamless data pipelines and testing robust applications."
+    - Tombol CTA (Call to Action) Utama: "Lihat Project" atau "Download CV".
+- **Tech Stack Marquee (Auto-scroll)**  
+    - Daripada melist skill dengan text panjang, gunakan baris logo (Python, MySQL, Airflow, Katalon, Postman, HTML, CSS) yang berjalan otomatis dari kanan ke kiri (marquee). Ini menghemat ruang di layar mobile namun tetap terlihat dinamis.
+- **Featured Projects (Inti Portfolio)**
+    - Tampilkan 2-3 project terbaik saja (Quality > Quantity).
+    - Gunakan format Card Layout (mudah di-tap di HP).
+    - Isi Card: Gambar Thumbnail (opsional), Judul Project, Deskripsi Singkat (1 kalimat), dan Tags (contoh: [Python] [Airflow]), tombol "View Repo".
+- **My Journey (About / Experience)**  
+    - Jangan gunakan paragraf panjang. Gunakan desain Timeline Vertikal. Sangat bagus untuk mobile (tinggal scroll ke bawah). Berisi titik-titik (pendidikan IT, bootcamp Kalibrr, dll).
+- **Footer & Contact**  
+    - Singkat dan padat. "Let's Connect!"
+    - Icon besar yang bisa di-tap untuk LinkedIn, GitHub, dan Email.
+
 4. Elemen Unik (The "Stand Out" Factor)
 Ide: "Developer Toggle Switch" (Saklar Mode Developer)
 
-Karena Anda memiliki skill backend/data (Python, Airflow) dan QA (Katalon), tambahkan sebuah saklar kecil (toggle) di pojok kanan atas layar bertuliskan "Dev Mode: OFF".
+Karena Anda memiliki skill backend/data (**Python, Airflow**) dan QA (**Katalon**), tambahkan sebuah saklar kecil (toggle) di pojok kanan atas layar bertuliskan "Dev Mode: OFF".
 
-Jika OFF (Default): Layar tampil seperti desain modern, rapi, dan elegan (cocok untuk rekruter HR/Corporate).
-Jika ON (Di-tap oleh user): Akan ada animasi singkat seperti Terminal/Command Prompt, lalu tema berubah:
-Background menjadi gelap (Dark Mode).
-Tulisan perkenalan di "Hero Section" berubah wujud menjadi format code (misal format JSON atau fungsi Python).
+- **Jika OFF (Default)**: Layar tampil seperti desain modern, rapi, dan elegan (cocok untuk rekruter HR/Corporate).
+- **Jika ON (Di-tap oleh user)**: Akan ada animasi singkat seperti Terminal/Command Prompt, lalu tema berubah:
+    - Background menjadi gelap (Dark Mode).
+    - Tulisan perkenalan di "Hero Section" berubah wujud menjadi format code (misal format JSON atau fungsi Python).
 Contoh:
-python
+````python
 def get_candidate_info():
     return {
         "name": "Ardelia Aryanti Putri",
         "skills": ["Python", "Airflow", "Katalon", "MySQL"],
         "status": "Ready to Hire!"
     }
-Kenapa ini bagus?
+````
 
-Sangat interaktif (membuat user / rekruter tersenyum).
-Membuktikan bahwa Anda paham UI (HTML/CSS) sekaligus memiliki identitas kuat sebagai developer.
-Bekerja sangat lancar walau hanya diakses via mobile.
-Bagaimana menurut Anda konsep ini? Kita bisa mulai dari sini untuk membangun struktur HTML/CSS-nya!
+- **Kenapa ini bagus?**
+    - Sangat interaktif
+    - Membuktikan bahwa Anda paham UI (HTML/CSS) sekaligus memiliki identitas kuat sebagai developer.
+    - Bekerja sangat lancar walau hanya diakses via mobile.
 
 ## Prompt 2.
 Tentang colour palette, dominan warna netral seperti off-white, deep navy, electric blue utk CTA button, dan mint green untuk secondary accent. Apakah ada rekomendasi warna lain yang menggabungkan warna lain yang lebih menonjolkan kreatifitas? Seperti #C9E063, #CD7DF5, atau #F77EB3? Atau kurang cocok & professional utk startup & corporate? Tolong berikan lebih dari 2 opsi. 
