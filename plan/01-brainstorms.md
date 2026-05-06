@@ -21,7 +21,7 @@ Output:
 
 ## Response 1.
 
-1. 3 Opsi Color Palette
+1. **3 Opsi Color Palette**
 - **Opsi A**: "Tech Minimalist" (Aman, Bersih, Startup-Friendly) Kesan: Modern, rapi, dan mudah dibaca. Sangat cocok untuk menonjolkan konten project.
     - Background: Off-White (#F8FAFC) - Tidak membuat mata lelah di layar HP.
     - Primary Text: Deep Navy (#0F172A) - Pengganti hitam pekat agar lebih elegan.
@@ -102,112 +102,104 @@ Warna-warna yang Anda sebutkan (#C9E063 / Lime Green, #CD7DF5 / Light Purple, da
 
 Apakah cocok dan profesional untuk Startup & Corporate?
 
-Untuk Startup: Sangat Cocok! Startup (terutama di bidang tech, web3, agensi kreatif, atau SaaS) sangat menyukai desain dengan warna-warna vibrant ini. Ini menunjukkan bahwa Anda up-to-date dengan tren desain modern (seperti Neo-brutalism atau Glassmorphism).
-Untuk Corporate: Masih cocok, TAPI ada syaratnya. Di dunia korporat yang lebih konservatif, warna-warna neon/vibrant ini tidak boleh dijadikan warna dominan (background besar). Kuncinya adalah Aturan 60-30-10: 60% warna netral (putih/hitam/abu), 30% warna sekunder (abu muda/navy), dan hanya 10% warna vibrant tersebut sebagai aksen (hanya untuk tombol CTA, hover effect, atau badge skill). Dengan begitu, portfolio tetap terlihat mahal, rapi, profesional, namun punya "percikan" kreativitas.
-Berikut adalah 4 Opsi Color Palette Baru yang menggabungkan warna-warna kreatif pilihan Anda dengan base profesional:
+1. **Untuk Startup**: Sangat Cocok! Startup (terutama di bidang tech, web3, agensi kreatif, atau SaaS) sangat menyukai desain dengan warna-warna vibrant ini. Ini menunjukkan bahwa Anda up-to-date dengan tren desain modern (seperti Neo-brutalism atau Glassmorphism).
+2. **Untuk Corporate**: Masih cocok, TAPI ada syaratnya. Di dunia korporat yang lebih konservatif, warna-warna neon/vibrant ini tidak boleh dijadikan warna dominan (background besar). Kuncinya adalah Aturan 60-30-10: 60% warna netral (putih/hitam/abu), 30% warna sekunder (abu muda/navy), dan hanya 10% warna vibrant tersebut sebagai aksen (hanya untuk tombol CTA, hover effect, atau badge skill). Dengan begitu, portfolio tetap terlihat mahal, rapi, profesional, namun punya "percikan" kreativitas.
 
-Opsi 1: "Modern Eco-Tech" (Lime & Slate)
+- **Opsi 1: "Modern Eco-Tech" (Lime & Slate)**
 Kesan: Sangat segar, energik, dan sedang sangat tren di dunia UI/UX tahun ini. Tetap aman untuk corporate karena warna dasarnya gelap dan elegan.
 
-Background (60%): Off-White (#FAFAFA) atau bisa dibalik menjadi Dark Slate (#1E293B)
-Primary Text (30%): Dark Slate (#1E293B) atau Off-White jika background gelap.
-Primary Accent / CTA Button (10%): Lime Green (#C9E063) — Catatan: Teks di dalam tombol lime ini harus warna gelap/hitam agar terbaca jelas.
-Secondary Accent (Teks link/Hover): Muted Teal (#2DD4BF)
-Opsi 2: "Cyber Elegance" (Dark Mode + Purple/Lime)
+    - Background (60%): Off-White (#FAFAFA) atau bisa dibalik menjadi Dark Slate (#1E293B)
+    - Primary Text (30%): Dark Slate (#1E293B) atau Off-White jika background gelap.
+    - Primary Accent / CTA Button (10%): Lime Green (#C9E063) — Catatan: Teks di dalam tombol lime ini harus warna gelap/hitam agar terbaca jelas.
+    - Secondary Accent (Teks link/Hover): Muted Teal (#2DD4BF)
+
+- **Opsi 2: "Cyber Elegance" (Dark Mode + Purple/Lime)**
 Kesan: Sangat "Developer" dan misterius, namun aksennya memberikan kejutan yang kreatif. Sangat cocok untuk anak IT.
 
-Background (60%): Charcoal Black (#121212)
-Card Background (30%): Dark Gray (#1F2937)
-Primary Accent / CTA Button (10%): Light Purple (#CD7DF5) — Sangat cantik berpadu dengan hitam.
-Secondary Accent (Skill Tags/Badges): Lime Green (#C9E063) — Gunakan sebagai pinggiran (border) atau teks kecil untuk memberi kontras ekstrim.
-Opsi 3: "Playful Professional" (Bright Light + Pink/Purple)
+    - Background (60%): Charcoal Black (#121212)
+    - Card Background (30%): Dark Gray (#1F2937)
+    - Primary Accent / CTA Button (10%): Light Purple (#CD7DF5) — Sangat cantik berpadu dengan hitam.
+    - Secondary Accent (Skill Tags/Badges): Lime Green (#C9E063) — Gunakan sebagai pinggiran (border) atau teks kecil untuk memberi kontras ekstrim.
+
+- **Opsi 3: "Playful Professional" (Bright Light + Pink/Purple)**
 Kesan: Ramah, approachable, dan kreatif. Menunjukkan personality Anda yang ceria tapi terstruktur. Cocok untuk startup.
 
-Background (60%): Clean White (#FFFFFF)
-Primary Text (30%): Deep Navy (#0F172A) — Mengganti hitam dengan Navy agar pas dengan Pink/Ungu.
-Primary Accent / CTA Button (10%): Bright Pink (#F77EB3)
-Secondary Accent (Gradients/Hover): Light Purple (#CD7DF5) — Anda bisa membuat tombol dengan gradasi halus dari Pink ke Ungu.
-Opsi 4: "The Vibrant Monotone" (Gelap + Tiga Warna Aksen)
+    - Background (60%): Clean White (#FFFFFF)
+    - Primary Text (30%): Deep Navy (#0F172A) — Mengganti hitam dengan Navy agar pas dengan Pink/Ungu.
+    - Primary Accent / CTA Button (10%): Bright Pink (#F77EB3)
+    - Secondary Accent (Gradients/Hover): Light Purple (#CD7DF5) — Anda bisa membuat tombol dengan gradasi halus dari Pink ke Ungu.
+
+- **Opsi 4: "The Vibrant Monotone" (Gelap + Tiga Warna Aksen)**
 Kesan: Jika Anda ingin memakai ketiga warna tersebut sekaligus tanpa terlihat norak. Gunakan dark mode murni.
 
-Background: Pitch Black (#000000) atau Very Dark Blue (#09090B)
-Text: Light Gray (#E4E4E7)
-Card 1 Hover/Accent: Lime Green (#C9E063)
-Card 2 Hover/Accent: Light Purple (#CD7DF5)
-Card 3 Hover/Accent: Bright Pink (#F77EB3)
-Cara Pakai: Gunakan background hitam polos, lalu saat user men-scroll atau melakukan hover pada daftar project/skill Anda, berikan garis bawah (underline) atau pendaran cahaya (glow) menggunakan 3 warna ini secara bergantian.
-Rekomendasi Saya: Jika Anda ingin menyasar Startup dan Corporate sekaligus, Opsi 1 (Lime & Slate) atau Opsi 2 (Cyber Elegance) adalah jalan tengah terbaik. Warna Lime (#C9E063) dan Ungu (#CD7DF5) saat dipadukan dengan hitam/abu tua pekat akan menghasilkan desain yang mewah namun tidak kaku.
-
-Apakah ada salah satu dari 4 palet di atas yang paling menggambarkan personality Anda?
+    - Background: Pitch Black (#000000) atau Very Dark Blue (#09090B)
+    - Text: Light Gray (#E4E4E7)
+    - Card 1 Hover/Accent: Lime Green (#C9E063)
+    - Card 2 Hover/Accent: Light Purple (#CD7DF5)
+    - Card 3 Hover/Accent: Bright Pink (#F77EB3)
+    - Cara Pakai: Gunakan background hitam polos, lalu saat user men-scroll atau melakukan hover pada daftar project/skill Anda, berikan garis bawah (underline) atau pendaran cahaya (glow) menggunakan 3 warna ini secara bergantian.
 
 ## Prompt 3.
 Jika saya memilih opsi nomor 2, apakah ada rekomendasi font yang cocok untuk title dan descriptionnya?
 
 ## Response 3.
-Pilihan yang sangat tepat! Opsi "Cyber Elegance" (Dark Mode + Purple/Lime) memberikan kesan tech-savvy yang kuat. Karena temanya agak mengarah ke Cyber/Developer dan Modern Tech, tipografinya juga harus mendukung kesan futuristik, berani, tapi tetap sangat nyaman dibaca (legibel) di layar gelap.
-
 Berikut adalah 3 rekomendasi Font Pairing (kombinasi font dari Google Fonts) yang paling cocok untuk Opsi 2:
 
-Pairing 1: The "Modern Web3 / Neo-Tech" (Paling Rekomendasi)
+1. **Pairing 1: The "Modern Web3 / Neo-Tech" (Paling Rekomendasi)**
 Kesan: Sangat trendi, edgy, dan menyatu sempurna dengan aksen neon (Purple/Lime).
 
-Title/Heading: Space Grotesk
-Kenapa: Font ini memiliki bentuk geometris yang unik (futuristik tapi tidak berlebihan). Saat dipakai dengan warna putih tebal atau ungu di dark mode, Space Grotesk akan langsung menangkap perhatian rekruter.
-Description/Body: Inter atau Outfit
-Kenapa: Karena title-nya sudah unik, body text-nya harus sesederhana mungkin agar mata rekruter tidak lelah saat membaca pengalaman kerja atau deskripsi project Anda. Inter adalah standar emas UI modern.
-Pairing 2: The "Hardcore Developer"
+    - **Title/Heading: Space Grotesk**
+        Kenapa: Font ini memiliki bentuk geometris yang unik (futuristik tapi tidak berlebihan). Saat dipakai dengan warna putih tebal atau ungu di dark mode, Space Grotesk akan langsung menangkap perhatian rekruter.
+    - **Description/Body: Inter atau Outfit**
+
+2. *    *Pairing 2: The "Hardcore Developer"**
 Kesan: Sangat mencerminkan anak IT sejati. Terlihat seperti sedang membaca sebuah IDE (Code Editor) yang sangat cantik.
 
-Title/Heading: Fira Code atau JetBrains Mono
-Kenapa: Ini adalah font monospace (huruf ketik) yang dipakai developer untuk ngoding. Jika Anda menggunakannya untuk judul section (misal: <AboutMe /> atau def skills():), ini akan memberikan identitas developer yang sangat kuat.
-Description/Body: DM Sans
-Kenapa: Mengimbangi ketegasan font monospace di judul dengan kelembutan DM Sans di deskripsi.
-Pairing 3: The "Clean & Elegant" (Aman & Elegan)
+    - **Title/Heading: Fira Code atau JetBrains Mono**
+        Kenapa: Ini adalah font monospace (huruf ketik) yang dipakai developer untuk ngoding. Jika Anda menggunakannya untuk judul section (misal: <AboutMe /> atau def skills():), ini akan memberikan identitas developer yang sangat kuat.
+    - **Description/Body: DM Sans**
+
+3. **Pairing 3: The "Clean & Elegant" (Aman & Elegan)**
 Kesan: Jika Anda takut Pairing 1 dan 2 terlalu "berani" untuk corporate, ini adalah jalan tengahnya. Sangat minimalis dan berkelas.
 
-Title & Body: Plus Jakarta Sans atau Manrope
-Cara Pakai: Cukup gunakan 1 jenis font (ini akan membuat loading website Anda lebih cepat!). Gunakan ExtraBold (800) untuk judul agar terlihat tegas, dan Regular (400) berwarna abu-abu muda (#9CA3AF) untuk deskripsi.
+    - **Title & Body: Plus Jakarta Sans atau Manrope**
+        Cara Pakai: Cukup gunakan 1 jenis font (ini akan membuat loading website Anda lebih cepat!). Gunakan ExtraBold (800) untuk judul agar terlihat tegas, dan Regular (400) berwarna abu-abu muda (#9CA3AF) untuk deskripsi.
+
 Tips UI untuk Dark Mode (Opsi 2): Untuk description/body text di background gelap (Charcoal Black), jangan gunakan warna putih murni (#FFFFFF). Putih murni di atas hitam pekat akan membuat mata silau (halation effect).
 
 Gunakan abu-abu sangat muda/silver seperti #E2E8F0 atau #9CA3AF untuk teks paragraf Anda.
-Saran saya, cobalah Pairing 1 (Space Grotesk + Inter). Perpaduannya akan membuat portfolio Anda terlihat selevel dengan website startup unicorn!
 
 ## Prompt 4.
 Masih dalam colour palette, kalau saya memilih opsi nomor 3. Playful Professional, font apa yang cocok dengan vibe tersebut?
 
 ## Response 4.
-Pilihan yang sangat menarik! Opsi "Playful Professional" (Background Putih + Teks Navy + Aksen Pink/Ungu) adalah kombinasi yang sangat friendly, approachable, namun tetap terstruktur. Tema ini sering digunakan oleh perusahaan SaaS (Software as a Service), agensi kreatif, dan startup edutech modern.
-
-Karena vibe-nya adalah ceria dan kreatif namun profesional, kita butuh font yang tidak sekaku font corporate tradisional, namun tidak terlalu kekanak-kanakan. Kuncinya ada di bentuk huruf (terutama judul) yang sedikit membulat (rounded) atau geometris yang hangat.
-
 Berikut adalah 3 rekomendasi Font Pairing dari Google Fonts untuk Opsi 3:
 
-Pairing 1: The "Startup Darling" (Paling Direkomendasikan)
+1. **Pairing 1: The "Startup Darling" (Paling Direkomendasikan)**
 Kesan: Sangat ramah, mengundang (welcoming), dan ceria. Cocok untuk menonjolkan soft-skill dan kepribadian Anda yang dinamis.
 
-Title/Heading: Poppins
-Kenapa: Poppins memiliki bentuk huruf yang bulat sempurna (terutama di huruf 'O' dan 'C'). Di dunia UI/UX, Poppins adalah "raja"-nya font playful yang tetap diakui keprofesionalannya. Jika menggunakan warna Deep Navy, Poppins Bold akan terlihat sangat cantik.
-Description/Body: DM Sans
-Kenapa: DM Sans juga memiliki lekukan yang lembut (warm sans-serif). Berpadu sangat serasi dengan Poppins tanpa bersaing mencari perhatian.
-Pairing 2: The "Modern & Structured" (Kreatif tapi Sangat Rapi)
+    - **Title/Heading: Poppins**
+        Kenapa: Poppins memiliki bentuk huruf yang bulat sempurna (terutama di huruf 'O' dan 'C'). Di dunia UI/UX, Poppins adalah "raja"-nya font playful yang tetap diakui keprofesionalannya. Jika menggunakan warna Deep Navy, Poppins Bold akan terlihat sangat cantik.
+    - **Description/Body: DM Sans**
+    
+2. **Pairing 2: The "Modern & Structured" (Kreatif tapi Sangat Rapi)**
 Kesan: Sedikit lebih serius dari Pairing 1, menunjukkan sisi "Tech/IT" namun tetap sejalan dengan warna warni aksen Pink/Ungu.
 
-Title/Heading: Outfit
-Kenapa: Outfit adalah font yang sedang sangat tren di startup web3 dan tech. Bentuknya bersih, geometris, tapi memiliki karakter unik yang tidak kaku.
-Description/Body: Inter
-Kenapa: Karena Outfit sudah punya karakter kuat, gunakan Inter untuk teks panjang/deskripsi project. Ini menjaga sisi profesionalisme dan keterbacaan yang maksimal bagi rekruter Corporate.
-Pairing 3: The "Quirky & Creative" (Berkarakter Kuat / Berani)
+    - **Title/Heading: Outfit**
+        Kenapa: Outfit adalah font yang sedang sangat tren di startup web3 dan tech. Bentuknya bersih, geometris, tapi memiliki karakter unik yang tidak kaku.
+    - **Description/Body: Inter**
+
+3. **Pairing 3: The "Quirky & Creative" (Berkarakter Kuat / Berani)**
 Kesan: Sangat menonjolkan jiwa UI/UX Designer. Sedikit artsy tapi tidak berlebihan.
 
-Title/Heading: Syne
-Kenapa: Syne adalah font modern yang memiliki proporsi unik (sedikit melebar). Digabungkan dengan tombol CTA warna Bright Pink (#F77EB3), website Anda akan terlihat seperti buatan design agency kelas atas.
-Description/Body: Work Sans
-Kenapa: Work Sans dioptimalkan untuk UI di layar. Tampilannya bersih dan menyeimbangkan bentuk font Syne yang berani.
+    - **Title/Heading: Syne**
+        Kenapa: Syne adalah font modern yang memiliki proporsi unik (sedikit melebar). Digabungkan dengan tombol CTA warna Bright Pink (#F77EB3), website Anda akan terlihat seperti buatan design agency kelas atas.
+    - **Description/Body: Work Sans**
+
 Tips UI untuk Tema "Playful Professional":
 
-Gunakan Border Radius (Sudut Membulat): Karena tema ini bersifat playful, hindari menggunakan sudut kotak yang tajam (0px) pada tombol CTA atau Card Project Anda. Gunakan rounded corners (misal: border-radius: 12px atau 16px) agar senada dengan kelembutan font seperti Poppins/Outfit.
-Gunakan Drop Shadow Halus: Berikan bayangan (shadow) berwarna ungu atau pink yang sangat tipis pada tombol saat di-hover untuk menambah kesan ceria.
-Menurut saya, jika Anda ingin main aman tapi tetap mendapatkan vibe cerianya, Pairing 1 (Poppins + DM Sans) adalah pilihan yang tidak akan pernah salah!
+    - **Gunakan Border Radius (Sudut Membulat):** Karena tema ini bersifat playful, hindari menggunakan sudut kotak yang tajam (0px) pada tombol CTA atau Card Project Anda. Gunakan rounded corners (misal: border-radius: 12px atau 16px) agar senada dengan kelembutan font seperti Poppins/Outfit.
+    - **Gunakan Drop Shadow Halus:** Berikan bayangan (shadow) berwarna ungu atau pink yang sangat tipis pada tombol saat di-hover untuk menambah kesan ceria.
 
 ## Key Decisions 
 | DECISIONS | VALUE | WHY |
