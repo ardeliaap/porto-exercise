@@ -2,354 +2,277 @@
 <html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ardelia Aryanti Putri - Portfolio</title>
-
-    <!-- Custom CSS (Wajib terpisah sesuai constraint) -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Tailwind CSS v4 CDN -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ardelia Aryanti Putri | Portfolio</title>
+  <!-- Tailwind CSS v4 via Browser CDN -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-brand-bg text-brand-text font-dm pb-24 md:pb-0 selection:bg-brand-secondary selection:text-white">
+<body
+  class="bg-[var(--bg-color)] text-[var(--text-primary)] transition-colors duration-300 antialiased selection:bg-[var(--accent-primary)] selection:text-white">
 
-    <!-- Header / Nav -->
-    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-brand-secondary/20">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="font-poppins font-bold text-2xl text-brand-text">A<span
-                    class="text-brand-accent">.</span></a>
-            <ul class="hidden md:flex space-x-8 font-medium">
-                <li><a href="#about" class="hover:text-brand-accent transition-colors">About</a></li>
-                <li><a href="#skills" class="hover:text-brand-accent transition-colors">Skills</a></li>
-                <li><a href="#projects" class="hover:text-brand-accent transition-colors">Projects</a></li>
-                <li><a href="#journey" class="hover:text-brand-accent transition-colors">Journey</a></li>
-            </ul>
-            <a href="#contact"
-                class="hidden md:inline-block bg-brand-accent text-black px-6 py-2 rounded-full font-medium hover:-translate-y-0.5 transition-transform shadow-sm">Let's
-                Talk</a>
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[var(--bg-color)]/80 border-b border-[var(--border-color)]">
+    <nav class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#"
+        class="font-heading font-bold text-xl tracking-tight hover:text-[var(--accent-primary)] transition-colors">AAP.</a>
 
-            <!-- Mobile Menu Button -->
-            <button class="md:hidden text-brand-text focus:outline-none" aria-label="Open menu">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
-                    </path>
-                </svg>
-            </button>
-        </nav>
-    </header>
+      <menu class="flex items-center gap-4 m-0 p-0 list-none">
+        <li class="hidden sm:inline-block">
+          <ul class="flex gap-6 font-medium text-sm m-0 p-0 list-none">
+            <li><a href="#about" class="hover:text-[var(--accent-primary)] transition-colors">About</a></li>
+            <li><a href="#projects" class="hover:text-[var(--accent-primary)] transition-colors">Projects</a></li>
+            <li><a href="#journey" class="hover:text-[var(--accent-primary)] transition-colors">Journey</a></li>
+          </ul>
+        </li>
+        <li>
+          <!-- Dev Toggle Switch -->
+          <label for="devToggle"
+            class="flex items-center cursor-pointer gap-2 bg-[var(--card-bg)] px-3 py-1.5 rounded-full border border-[var(--border-color)] shadow-sm hover:shadow-md transition-shadow">
+            <span class="text-xs font-semibold text-[var(--text-secondary)]">Dev Mode:</span>
+            <span id="themeLabel" class="text-xs font-bold w-6 text-left inline-block">OFF</span>
+            <input type="checkbox" id="devToggle" class="peer sr-only">
+            <span
+              class="relative w-8 h-4 bg-gray-300 rounded-full peer-checked:bg-[var(--accent-secondary)] transition-colors inline-block">
+              <span
+                class="absolute left-0.5 top-0.5 w-3 h-3 bg-white rounded-full transition-transform peer-checked:translate-x-4 inline-block"></span>
+            </span>
+          </label>
+        </li>
+      </menu>
+    </nav>
+  </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="about"
-            class="container mx-auto px-6 pt-20 pb-24 md:pt-32 md:pb-32 flex flex-col md:flex-row items-center gap-12">
-            <figure
-                class="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-tr from-brand-secondary to-brand-accent p-1 flex-shrink-0 shadow-xl shadow-brand-accent/20">
-                <img src="https://api.dicebear.com/9.x/micah/svg?seed=Ardelia&backgroundColor=transparent"
-                    alt="Ardelia Aryanti Putri Avatar" class="w-full h-full object-cover rounded-full bg-white">
-            </figure>
-            <article class="text-center md:text-left flex-1">
-                <h1 class="font-poppins text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
-                    Hi, I'm Ardel! <span class="inline-block animate-wave">👋</span>
-                </h1>
-                <h2 class="text-xl md:text-2xl text-slate-600 mb-6 font-medium">
-                    A Data & QA Developer. I build data pipelines and ensure robust applications.
-                </h2>
-                <p class="mb-8 text-slate-500 max-w-2xl mx-auto md:mx-0 text-lg">
-                    With 4 years of experience as an IT Support and S1 Information Systems graduate, I specialize in
-                    MySQL queries, automation testing via Katalon, and Python scripting for Airflow schedulers.
-                </p>
-                <menu class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start p-0 m-0">
-                    <li><a href="#projects"
-                            class="block bg-white text-brand-secondary border-2 border-brand-secondary px-8 py-3 rounded-full font-medium text-lg hover:bg-brand-secondary/5 transition-colors text-center">View
-                            My Work</a></li>
-                    <li><a href="#contact"
-                            class="block bg-white text-brand-secondary border-2 border-brand-secondary px-8 py-3 rounded-full font-medium text-lg hover:bg-brand-secondary/5 transition-colors text-center">Let's
-                            Connect</a></li>
-                </menu>
-            </article>
-        </section>
+  <main class="max-w-4xl mx-auto px-4 pt-10 pb-20 overflow-hidden">
 
-        <!-- Tech Stack / Skills Section -->
-        <section id="skills" class="bg-slate-50 py-20">
-            <article class="container mx-auto px-6 text-center">
-                <header class="mb-12">
-                    <h2 class="font-poppins text-3xl font-bold mb-4 relative inline-block">
-                        My Tech Stack
-                        <span class="absolute -bottom-2 left-0 w-1/2 h-1 bg-brand-accent rounded-full"></span>
-                    </h2>
-                    <p class="text-slate-500 mt-4">The tools I use to bring ideas to life.</p>
-                </header>
-                <ul class="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-                    <li
-                        class="px-6 py-3 bg-brand-accent/10 text-brand-accent border border-brand-accent/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        Python</li>
-                    <li
-                        class="px-6 py-3 bg-brand-secondary/10 text-brand-secondary border border-brand-secondary/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        MySQL</li>
-                    <li
-                        class="px-6 py-3 bg-brand-accent/10 text-brand-accent border border-brand-accent/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        Airflow</li>
-                    <li
-                        class="px-6 py-3 bg-brand-secondary/10 text-brand-secondary border border-brand-secondary/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        Katalon</li>
-                    <li
-                        class="px-6 py-3 bg-brand-accent/10 text-brand-accent border border-brand-accent/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        Postman</li>
-                    <li
-                        class="px-6 py-3 bg-brand-secondary/10 text-brand-secondary border border-brand-secondary/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        HTML5</li>
-                    <li
-                        class="px-6 py-3 bg-brand-accent/10 text-brand-accent border border-brand-accent/20 rounded-full font-medium shadow-sm hover:scale-105 transition-transform cursor-default">
-                        CSS3</li>
-                </ul>
-            </article>
-        </section>
+    <!-- Hero Section -->
+    <section id="about" class="min-h-[70vh] flex flex-col justify-center py-10 reveal active">
 
-        <!-- Featured Projects Section -->
-        <section id="projects" class="py-20">
-            <article class="container mx-auto px-6">
-                <header class="mb-12 text-center md:text-left">
-                    <h2 class="font-poppins text-3xl font-bold mb-4 relative inline-block">
-                        Featured Projects
-                        <span class="absolute -bottom-2 left-0 w-1/2 h-1 bg-brand-secondary rounded-full"></span>
-                    </h2>
-                </header>
-
-                <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Project Card 1 -->
-                    <article
-                        class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-brand-secondary/10 border border-slate-100 flex flex-col group hover:-translate-y-2 transition-all duration-300">
-                        <figure
-                            class="h-48 bg-slate-100 relative overflow-hidden flex items-center justify-center bg-gradient-to-br from-brand-secondary/20 to-brand-accent/20">
-                            <figcaption class="text-4xl" aria-hidden="true">📊</figcaption>
-                        </figure>
-                        <section class="p-6 flex-1 flex flex-col">
-                            <h3
-                                class="font-poppins font-bold text-xl mb-2 group-hover:text-brand-accent transition-colors">
-                                Automated Data Pipeline</h3>
-                            <p class="text-slate-500 mb-6 flex-1 line-clamp-2">Scheduled data extraction and
-                                transformation workflow using Apache Airflow and Python.</p>
-                            <ul class="flex flex-wrap gap-2 mb-6">
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">Python
-                                </li>
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">Airflow
-                                </li>
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">MySQL
-                                </li>
-                            </ul>
-                            <a href="#"
-                                class="inline-flex items-center text-brand-text font-bold group-hover:text-brand-accent transition-colors mt-auto">
-                                View Project
-                                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                </svg>
-                            </a>
-                        </section>
-                    </article>
-
-                    <!-- Project Card 2 -->
-                    <article
-                        class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-brand-secondary/10 border border-slate-100 flex flex-col group hover:-translate-y-2 transition-all duration-300">
-                        <figure
-                            class="h-48 bg-slate-100 relative overflow-hidden flex items-center justify-center bg-gradient-to-br from-brand-accent/20 to-brand-secondary/20">
-                            <figcaption class="text-4xl" aria-hidden="true">✅</figcaption>
-                        </figure>
-                        <section class="p-6 flex-1 flex flex-col">
-                            <h3
-                                class="font-poppins font-bold text-xl mb-2 group-hover:text-brand-accent transition-colors">
-                                E-Commerce Test Suite</h3>
-                            <p class="text-slate-500 mb-6 flex-1 line-clamp-2">Comprehensive UI and API automation
-                                testing using Katalon Studio and Postman for core flows.</p>
-                            <ul class="flex flex-wrap gap-2 mb-6">
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">Katalon
-                                </li>
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">Postman
-                                </li>
-                            </ul>
-                            <a href="#"
-                                class="inline-flex items-center text-brand-text font-bold group-hover:text-brand-accent transition-colors mt-auto">
-                                View Project
-                                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                </svg>
-                            </a>
-                        </section>
-                    </article>
-
-                    <!-- Project Card 3 -->
-                    <article
-                        class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-brand-secondary/10 border border-slate-100 flex flex-col group hover:-translate-y-2 transition-all duration-300">
-                        <figure
-                            class="h-48 bg-slate-100 relative overflow-hidden flex items-center justify-center bg-gradient-to-br from-brand-secondary/20 to-brand-accent/20">
-                            <figcaption class="text-4xl" aria-hidden="true">🗄️</figcaption>
-                        </figure>
-                        <section class="p-6 flex-1 flex flex-col">
-                            <h3
-                                class="font-poppins font-bold text-xl mb-2 group-hover:text-brand-accent transition-colors">
-                                IT Support Dashboard</h3>
-                            <p class="text-slate-500 mb-6 flex-1 line-clamp-2">A dashboard querying complex MySQL
-                                databases to monitor system health and generate reports.</p>
-                            <ul class="flex flex-wrap gap-2 mb-6">
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">HTML5
-                                </li>
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">CSS3
-                                </li>
-                                <li class="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 rounded-full">MySQL
-                                </li>
-                            </ul>
-                            <a href="#"
-                                class="inline-flex items-center text-brand-text font-bold group-hover:text-brand-accent transition-colors mt-auto">
-                                View Project
-                                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                </svg>
-                            </a>
-                        </section>
-                    </article>
-                </section>
-            </article>
-        </section>
-
-        <!-- Journey Section -->
-        <section id="journey" class="bg-slate-50 py-20">
-            <article class="container mx-auto px-6 max-w-4xl">
-                <header class="mb-16 text-center">
-                    <h2 class="font-poppins text-3xl font-bold mb-4 relative inline-block">
-                        My Journey
-                        <span class="absolute -bottom-2 right-0 w-1/2 h-1 bg-brand-accent rounded-full"></span>
-                    </h2>
-                </header>
-
-                <ol class="relative border-l-2 border-brand-secondary/30 ml-4 md:ml-0 md:pl-0 space-y-12">
-                    <li class="pl-8 relative">
-                        <span
-                            class="absolute w-8 h-8 bg-white border-4 border-brand-accent rounded-full -left-[17px] top-0 flex items-center justify-center text-sm shadow-md"
-                            aria-hidden="true">
-                            🚀
-                        </span>
-                        <article class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                            <header class="mb-2">
-                                <time class="text-sm font-bold text-brand-accent mb-1 block">2023 - Present</time>
-                                <h3 class="font-poppins text-xl font-bold">MinBoot IT - Kalibrr</h3>
-                            </header>
-                            <p class="text-slate-500">Intensive bootcamp focused on modern web development, UI/UX, and
-                                IT infrastructure best practices.</p>
-                        </article>
-                    </li>
-
-                    <li class="pl-8 relative">
-                        <span
-                            class="absolute w-8 h-8 bg-white border-4 border-brand-secondary rounded-full -left-[17px] top-0 flex items-center justify-center text-sm shadow-md"
-                            aria-hidden="true">
-                            💼
-                        </span>
-                        <article class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                            <header class="mb-2">
-                                <time class="text-sm font-bold text-brand-secondary mb-1 block">2019 - Present</time>
-                                <h3 class="font-poppins text-xl font-bold">IT Support & QA</h3>
-                            </header>
-                            <p class="text-slate-500">4 years of experience resolving technical issues, managing MySQL
-                                databases, and ensuring application quality through Katalon and Postman automation.</p>
-                        </article>
-                    </li>
-
-                    <li class="pl-8 relative">
-                        <span
-                            class="absolute w-8 h-8 bg-white border-4 border-slate-300 rounded-full -left-[17px] top-0 flex items-center justify-center text-sm shadow-md"
-                            aria-hidden="true">
-                            🎓
-                        </span>
-                        <article class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                            <header class="mb-2">
-                                <time class="text-sm font-bold text-slate-400 mb-1 block">2015 - 2019</time>
-                                <h3 class="font-poppins text-xl font-bold">Bachelor of Information Systems</h3>
-                            </header>
-                            <p class="text-slate-500">Graduated with a strong foundation in database management,
-                                software engineering, and system analysis.</p>
-                        </article>
-                    </li>
-                </ol>
-            </article>
-        </section>
-    </main>
-
-    <!-- Footer / Contact -->
-    <footer id="contact"
-        class="bg-gradient-to-br from-brand-secondary to-brand-accent text-black py-20 mt-10 rounded-t-[3rem] shadow-2xl">
-        <address class="container mx-auto px-6 text-center not-italic">
-            <h2 class="font-poppins text-4xl md:text-5xl font-extrabold mb-6">Let's build something awesome together!
-            </h2>
-            <p class="text-black/80 mb-10 max-w-xl mx-auto text-lg">Always open to discuss your next big project, or
-                just say hello.</p>
-
-            <a href="mailto:ardeliaap@gmail.com"
-                class="inline-block bg-white text-brand-text font-bold text-xl px-10 py-4 rounded-full shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300">
-                Say Hello!
+      <!-- Default Playful Mode -->
+      <article id="heroDefault" class="space-y-6">
+        <h1 class="font-heading font-extrabold text-5xl md:text-7xl tracking-tight leading-tight">
+          Hi, I'm <span class="text-[var(--accent-primary)] inline-block relative">
+            Ardel
+            <span class="absolute bottom-1 left-0 w-full h-3 bg-[var(--accent-secondary)]/30 -z-10 rounded-full"></span>
+          </span> 👋
+        </h1>
+        <p class="text-lg md:text-xl text-[var(--text-secondary)] max-w-2xl leading-relaxed">
+          Data & QA Enthusiast | Building seamless data pipelines and testing robust applications. I blend logic with
+          creativity.
+        </p>
+        <menu class="flex flex-wrap gap-4 pt-4 p-0 m-0 list-none">
+          <li>
+            <a href="#projects"
+              class="inline-block bg-[var(--accent-primary)] text-white font-semibold px-6 py-3 rounded-2xl shadow-[0_4px_14px_0_rgba(247,126,179,0.39)] hover:shadow-[0_6px_20px_rgba(247,126,179,0.23)] hover:-translate-y-1 transition-all">
+              View Project
             </a>
+          </li>
+          <li>
+            <a href="#contact"
+              class="inline-block bg-[var(--card-bg)] text-[var(--text-primary)] border border-[var(--border-color)] font-semibold px-6 py-3 rounded-2xl hover:border-[var(--accent-secondary)] hover:text-[var(--accent-secondary)] transition-colors">
+              Contact Me
+            </a>
+          </li>
+        </menu>
+      </article>
 
-            <nav class="mt-16 flex justify-center space-x-6" aria-label="Social Media Links">
-                <a href="#"
-                    class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center hover:bg-black/40 transition-colors"
-                    aria-label="LinkedIn">
-                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                    </svg>
-                </a>
-                <a href="#"
-                    class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center hover:bg-black/40 transition-colors"
-                    aria-label="GitHub">
-                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                    </svg>
-                </a>
-            </nav>
-            <p class="mt-8 text-sm text-black/60">
-                &copy; 2024 Ardelia Aryanti Putri. Built with Semantic HTML & Tailwind.
-            </p>
-        </address>
-    </footer>
+      <!-- Dev Mode Terminal View -->
+      <article id="heroDevMode"
+        class="hidden bg-[#000000] rounded-xl border border-[#333] shadow-2xl overflow-hidden w-full max-w-3xl">
+        <header class="bg-[#1A1A1A] px-4 py-2 border-b border-[#333] flex items-center gap-2">
+          <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+          <span class="w-3 h-3 rounded-full bg-yellow-500 inline-block"></span>
+          <span class="w-3 h-3 rounded-full bg-green-500 inline-block"></span>
+          <p class="ml-4 text-xs font-mono text-gray-400 m-0 p-0">ardelia_profile.py</p>
+        </header>
+        <figure class="p-6 overflow-x-auto m-0">
+          <pre class="font-mono text-sm leading-relaxed m-0"><code><span class="token-keyword">def</span> <span class="token-function">get_candidate_info</span><span class="token-punctuation">():</span>
+    <span class="token-keyword">return</span> <span class="token-punctuation">{</span>
+        <span class="token-property">"name"</span><span class="token-punctuation">:</span> <span class="token-string">"Ardelia Aryanti Putri"</span><span class="token-punctuation">,</span>
+        <span class="token-property">"skills"</span><span class="token-punctuation">:</span> <span class="token-punctuation">[</span><span class="token-string">"Python"</span><span class="token-punctuation">,</span> <span class="token-string">"Airflow"</span><span class="token-punctuation">,</span> <span class="token-string">"Katalon"</span><span class="token-punctuation">,</span> <span class="token-string">"MySQL"</span><span class="token-punctuation">]</span><span class="token-punctuation">,</span>
+        <span class="token-property">"status"</span><span class="token-punctuation">:</span> <span class="token-string">"Ready to Hire!"</span>
+    <span class="token-punctuation">}</span></code></pre>
+        </figure>
+      </article>
 
-    <!-- Script for mobile menu toggle (vanilla JS) -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const btn = document.querySelector('button[aria-label="Open menu"]');
-            const nav = document.querySelector('nav ul');
+    </section>
 
-            btn.addEventListener('click', () => {
-                nav.classList.toggle('hidden');
-                nav.classList.toggle('flex');
-                nav.classList.toggle('flex-col');
-                nav.classList.toggle('absolute');
-                nav.classList.toggle('top-full');
-                nav.classList.toggle('left-0');
-                nav.classList.toggle('w-full');
-                nav.classList.toggle('bg-white');
-                nav.classList.toggle('shadow-md');
-                nav.classList.toggle('p-6');
-                nav.classList.toggle('space-y-4');
-                nav.classList.toggle('space-x-0');
+    <!-- Tech Stack Marquee -->
+    <section class="py-10 border-y border-[var(--border-color)] overflow-hidden marquee-container reveal">
+      <ul class="animate-marquee flex items-center gap-12 m-0 p-0 list-none">
+        <!-- Duplicate elements for continuous loop -->
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          Python</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-secondary)] transition-colors cursor-default">
+          MySQL</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          Airflow</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-secondary)] transition-colors cursor-default">
+          Katalon</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          Postman</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-secondary)] transition-colors cursor-default">
+          HTML5</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          CSS3</li>
+        <!-- duplicate -->
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          Python</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-secondary)] transition-colors cursor-default">
+          MySQL</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          Airflow</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-secondary)] transition-colors cursor-default">
+          Katalon</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          Postman</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-secondary)] transition-colors cursor-default">
+          HTML5</li>
+        <li
+          class="font-heading font-bold text-2xl text-[var(--text-secondary)] opacity-50 hover:opacity-100 hover:text-[var(--accent-primary)] transition-colors cursor-default">
+          CSS3</li>
+      </ul>
+    </section>
 
-                // Adjust hover states when in mobile layout
-                if (!nav.classList.contains('hidden')) {
-                    const links = nav.querySelectorAll('a');
-                    links.forEach(link => {
-                        link.classList.add('block', 'w-full', 'py-2');
-                    });
-                }
-            });
-        });
-    </script>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 space-y-10 reveal">
+      <header>
+        <h2 class="font-heading font-bold text-3xl md:text-4xl">Featured Projects</h2>
+        <p class="text-[var(--text-secondary)] mt-2">Some of the work I'm most proud of.</p>
+      </header>
+
+      <article class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Project 1 -->
+        <figure
+          class="bg-[var(--card-bg)] p-6 rounded-3xl border border-[var(--border-color)] hover:shadow-xl hover:-translate-y-1 transition-all m-0 flex flex-col h-full group">
+          <figcaption class="space-y-4 flex-1 flex flex-col">
+            <h3 class="font-heading font-bold text-xl group-hover:text-[var(--accent-primary)] transition-colors">Data
+              Pipeline Automation</h3>
+            <p class="text-[var(--text-secondary)] text-sm leading-relaxed flex-1">Engineered an automated data pipeline
+              using Apache Airflow and Python to schedule daily ETL jobs from MySQL to a Data Warehouse.</p>
+            <ul class="flex gap-2 text-xs font-semibold m-0 p-0 list-none mt-4">
+              <li
+                class="bg-[var(--bg-color)] px-3 py-1 rounded-full text-[var(--accent-secondary)] border border-[var(--border-color)]">
+                Python</li>
+              <li
+                class="bg-[var(--bg-color)] px-3 py-1 rounded-full text-[var(--accent-secondary)] border border-[var(--border-color)]">
+                Airflow</li>
+              <li
+                class="bg-[var(--bg-color)] px-3 py-1 rounded-full text-[var(--accent-secondary)] border border-[var(--border-color)]">
+                MySQL</li>
+            </ul>
+            <menu class="pt-4 p-0 m-0 list-none">
+              <li><a href="#"
+                  class="text-[var(--accent-primary)] font-semibold text-sm hover:underline inline-block">View
+                  Repository &rarr;</a></li>
+            </menu>
+          </figcaption>
+        </figure>
+
+        <!-- Project 2 -->
+        <figure
+          class="bg-[var(--card-bg)] p-6 rounded-3xl border border-[var(--border-color)] hover:shadow-xl hover:-translate-y-1 transition-all m-0 flex flex-col h-full group">
+          <figcaption class="space-y-4 flex-1 flex flex-col">
+            <h3 class="font-heading font-bold text-xl group-hover:text-[var(--accent-secondary)] transition-colors">
+              E-Commerce QA Automation</h3>
+            <p class="text-[var(--text-secondary)] text-sm leading-relaxed flex-1">Developed end-to-end automated
+              testing suites using Katalon Studio to ensure zero regression bugs in the checkout flow.</p>
+            <ul class="flex gap-2 text-xs font-semibold m-0 p-0 list-none mt-4">
+              <li
+                class="bg-[var(--bg-color)] px-3 py-1 rounded-full text-[var(--accent-primary)] border border-[var(--border-color)]">
+                Katalon</li>
+              <li
+                class="bg-[var(--bg-color)] px-3 py-1 rounded-full text-[var(--accent-primary)] border border-[var(--border-color)]">
+                QA</li>
+            </ul>
+            <menu class="pt-4 p-0 m-0 list-none">
+              <li><a href="#"
+                  class="text-[var(--accent-secondary)] font-semibold text-sm hover:underline inline-block">View
+                  Repository &rarr;</a></li>
+            </menu>
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <!-- My Journey Section -->
+    <section id="journey" class="py-20 reveal">
+      <header class="mb-10">
+        <h2 class="font-heading font-bold text-3xl md:text-4xl">My Journey</h2>
+      </header>
+
+      <!-- Vertical Timeline -->
+      <ol class="relative border-l-2 border-[var(--border-color)] ml-3 space-y-10 p-0 list-none">
+        <li class="pl-8 relative">
+          <span
+            class="absolute w-4 h-4 bg-[var(--accent-primary)] rounded-full -left-[9px] top-1 ring-4 ring-[var(--bg-color)]"></span>
+          <h3 class="font-heading font-bold text-lg">IT Support</h3>
+          <time class="block mb-2 text-sm font-semibold text-[var(--accent-primary)]">2020 - Present (4 Years)</time>
+          <p class="text-base font-normal text-[var(--text-secondary)] leading-relaxed">Providing technical assistance,
+            troubleshooting network issues, and maintaining system databases. Automated routine checks using Python
+            scripts.</p>
+        </li>
+        <li class="pl-8 relative">
+          <span
+            class="absolute w-4 h-4 bg-[var(--border-color)] rounded-full -left-[9px] top-1 ring-4 ring-[var(--bg-color)]"></span>
+          <h3 class="font-heading font-bold text-lg">Bootcamp Kalibrr - MinBoot IT</h3>
+          <time class="block mb-2 text-sm font-semibold text-[var(--text-secondary)]">2026</time>
+          <p class="text-base font-normal text-[var(--text-secondary)] leading-relaxed">Intensive training covering
+            modern web development, UI/UX principles, and advanced backend engineering workflows.</p>
+        </li>
+        <li class="pl-8 relative">
+          <span
+            class="absolute w-4 h-4 bg-[var(--border-color)] rounded-full -left-[9px] top-1 ring-4 ring-[var(--bg-color)]"></span>
+          <h3 class="font-heading font-bold text-lg">S1 Sistem Informasi</h3>
+          <time class="block mb-2 text-sm font-semibold text-[var(--text-secondary)]">Graduated 2024</time>
+          <p class="text-base font-normal text-[var(--text-secondary)] leading-relaxed">Focused on enterprise
+            architecture, database management (MySQL), and systems analysis.</p>
+        </li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="border-t border-[var(--border-color)] bg-[var(--card-bg)] py-12 mt-10">
+    <section class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-8">
+      <article class="text-center md:text-left">
+        <h2 class="font-heading font-bold text-2xl">Let's Connect!</h2>
+        <p class="text-[var(--text-secondary)] mt-2">Always open to discuss new opportunities.</p>
+      </article>
+      <menu class="flex flex-wrap justify-center gap-4 p-0 m-0 list-none">
+        <li><a href="#"
+            class="px-6 py-3 bg-[var(--bg-color)] rounded-2xl border border-[var(--border-color)] hover:border-[var(--accent-primary)] hover:text-[var(--accent-primary)] transition-all hover:-translate-y-1 inline-block font-medium shadow-sm">LinkedIn</a>
+        </li>
+        <li><a href="#"
+            class="px-6 py-3 bg-[var(--bg-color)] rounded-2xl border border-[var(--border-color)] hover:border-[var(--accent-secondary)] hover:text-[var(--accent-secondary)] transition-all hover:-translate-y-1 inline-block font-medium shadow-sm">GitHub</a>
+        </li>
+        <li><a href="mailto:ardelia@example.com"
+            class="px-6 py-3 bg-[var(--bg-color)] rounded-2xl border border-[var(--border-color)] hover:border-[var(--accent-primary)] hover:text-[var(--accent-primary)] transition-all hover:-translate-y-1 inline-block font-medium shadow-sm">Email</a>
+        </li>
+      </menu>
+    </section>
+    <p class="text-center text-sm text-[var(--text-secondary)] mt-12 mb-0">
+      &copy; 2026 Ardelia Aryanti Putri. Built with the desire to learn something new.
+    </p>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
 </body>
 
 </html>
