@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const year = new Date().getFullYear();
+    document.getElementById("year").textContent = year;
     // 1. Scroll Reveal Animation
     const revealElements = document.querySelectorAll(".reveal");
 
@@ -16,8 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const revealObserver = new IntersectionObserver(revealCallback, revealOptions);
-    const year = new Date().getFullYear();
-    document.getElementById("year").textContent = year;
 
     revealElements.forEach(el => {
         revealObserver.observe(el);
