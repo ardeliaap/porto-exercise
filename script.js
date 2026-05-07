@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const revealObserver = new IntersectionObserver(revealCallback, revealOptions);
+    const year = new Date().getFullYear();
+    document.getElementById("year").textContent = year;
 
     revealElements.forEach(el => {
         revealObserver.observe(el);
@@ -31,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (devToggle) {
         devToggle.addEventListener("change", (e) => {
             const isDevMode = e.target.checked;
-            
+
             // Add a brief glitch effect to the body for a "terminal boot" feel
             document.body.classList.add("animate-glitch");
             setTimeout(() => {
@@ -42,14 +44,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Switch to Dark Mode
                 htmlElement.setAttribute("data-theme", "dark");
                 themeLabel.textContent = "ON";
-                
+
                 // Tailwind colors: When ON, change text color
                 themeLabel.classList.add("text-[var(--accent-secondary)]");
 
                 // Swap hero content
                 heroDefault.classList.add("hidden");
                 heroDevMode.classList.remove("hidden");
-                
+
                 // Add boot animation to the terminal code block
                 heroDevMode.classList.add("animate-boot");
                 setTimeout(() => {
